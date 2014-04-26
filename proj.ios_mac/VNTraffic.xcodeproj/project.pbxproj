@@ -60,6 +60,10 @@
 		50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629517ECD46A001EB2F8 /* Icon-100.png */; };
 		50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A017ECD613001EB2F8 /* Icon-29.png */; };
 		50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A117ECD613001EB2F8 /* Icon-50.png */; };
+		512AE17D190BF8A800F04F96 /* Shake.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 512AE17B190BF8A800F04F96 /* Shake.cpp */; };
+		512AE184190C018A00F04F96 /* Shake.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 512AE17B190BF8A800F04F96 /* Shake.cpp */; };
+		512AE185190C020800F04F96 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51720474190AA04A00DB5343 /* Vehicle.cpp */; };
+		512AE187190C037500F04F96 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512AE186190C037500F04F96 /* MainWindow.xib */; };
 		51720476190AA04A00DB5343 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51720474190AA04A00DB5343 /* Vehicle.cpp */; };
 		519933BF190ADF0B00996C64 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 519933BD190ADF0B00996C64 /* background.mp3 */; };
 		519933C0190ADF0B00996C64 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 519933BD190ADF0B00996C64 /* background.mp3 */; };
@@ -277,6 +281,9 @@
 		50EF629517ECD46A001EB2F8 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-100.png"; sourceTree = "<group>"; };
 		50EF62A017ECD613001EB2F8 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
 		50EF62A117ECD613001EB2F8 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		512AE17B190BF8A800F04F96 /* Shake.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Shake.cpp; path = ../Classes/Shake.cpp; sourceTree = "<group>"; };
+		512AE17C190BF8A800F04F96 /* Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shake.h; path = ../Classes/Shake.h; sourceTree = "<group>"; };
+		512AE186190C037500F04F96 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = mac/MainWindow.xib; sourceTree = "<group>"; };
 		51720474190AA04A00DB5343 /* Vehicle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vehicle.cpp; path = ../Classes/Vehicle.cpp; sourceTree = "<group>"; };
 		51720475190AA04A00DB5343 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vehicle.h; path = ../Classes/Vehicle.h; sourceTree = "<group>"; };
 		519933BD190ADF0B00996C64 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
@@ -383,6 +390,8 @@
 				51E61A5B19082349004F8078 /* GameConfig.h */,
 				51720474190AA04A00DB5343 /* Vehicle.cpp */,
 				51720475190AA04A00DB5343 /* Vehicle.h */,
+				512AE17B190BF8A800F04F96 /* Shake.cpp */,
+				512AE17C190BF8A800F04F96 /* Shake.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -466,6 +475,7 @@
 				503AE0F517EB97AB00D1A890 /* Icons */,
 				503AE10317EB98FF00D1A890 /* main.cpp */,
 				503AE10417EB98FF00D1A890 /* Prefix.pch */,
+				512AE186190C037500F04F96 /* MainWindow.xib */,
 			);
 			name = mac;
 			sourceTree = "<group>";
@@ -708,6 +718,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512AE187190C037500F04F96 /* MainWindow.xib in Resources */,
 				519933C2190ADF0B00996C64 /* gameover.wav in Resources */,
 				51E61A6319082F1D004F8078 /* ipadhd in Resources */,
 				51E61A6519082F1D004F8078 /* iphone in Resources */,
@@ -730,6 +741,7 @@
 			files = (
 				51E61A5919081409004F8078 /* Player.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				512AE17D190BF8A800F04F96 /* Shake.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
@@ -747,6 +759,8 @@
 				5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */,
 				51E61A5219080EDC004F8078 /* Terrain.cpp in Sources */,
 				51E61A5A19081409004F8078 /* Player.cpp in Sources */,
+				512AE184190C018A00F04F96 /* Shake.cpp in Sources */,
+				512AE185190C020800F04F96 /* Vehicle.cpp in Sources */,
 				51E61A4E19080D7C004F8078 /* GameLayer.cpp in Sources */,
 				51E61A56190813FB004F8078 /* GameSprite.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
@@ -896,6 +910,7 @@
 				);
 				INFOPLIST_FILE = mac/Info.plist;
 				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -923,6 +938,7 @@
 				);
 				INFOPLIST_FILE = mac/Info.plist;
 				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;

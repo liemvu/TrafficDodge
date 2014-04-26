@@ -12,7 +12,9 @@
 #include "cocos2d.h"
 #include "Player.h"
 #include "Vehicle.h"
+#include "Shake.h"
 USING_NS_CC;
+using namespace std;
 
 enum {
     kStateIntro,
@@ -39,10 +41,10 @@ public:
 private:
     Size _screenSize;
     
-    int _difficultIncreaseInterval;
+    float _difficultIncreaseInterval;
 	float _difficultIncreaseTimer;
     
-    int _spawnVehicleInterval;
+    float _spawnVehicleInterval;
     float _spawnVehicleTimer;
     
     Sprite * _background;
@@ -50,10 +52,15 @@ private:
     Sprite * _gameover;
     Player * _player;
     ParticleSystemQuad * _fireParticle;
+    Action * _shake;
+    Action * _lostLife;
     
     Vector<Vehicle*> * _vehiclesPool;
     int _vehiclesPoolIndex;
-    Vector<Vehicle*> * _vehicles;
+    Vector<Vehicle*> **  _vehicles;
+    
+    int _life;
+    Sprite ** _hearts;
     
     double _score;
     LabelBMFont * _scoreLabel;
@@ -68,6 +75,9 @@ private:
     void increaseDifficulty();
     void spawnVehicle();
     void gameover();
+    void debugVehicles();
+    void updateLife();
+    void lostLifeAnimationCompleted(Node * node);
     CREATE_FUNC(GameLayer);
 };
 

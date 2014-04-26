@@ -34,7 +34,7 @@ public:
     virtual void update(float dt);
     
     inline float bottom() {
-        return _position.y + _height;
+        return _position.y - _height;
     }
     
     inline float top() {

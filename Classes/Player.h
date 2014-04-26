@@ -23,6 +23,7 @@ public:
     static Player * create();
     
     CC_SYNTHESIZE(float, _maxSpeed, MaxSpeed);
+    CC_SYNTHESIZE(bool, _invincible, Invincible);
     
     inline virtual void place () {
 		this->setPositionX( _nextPosition.x );

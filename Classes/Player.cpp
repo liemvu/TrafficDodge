@@ -64,6 +64,7 @@ void Player::initPlayer() {
 }
 
 void Player::reset (void) {
+    _invincible = false;
     _speed = PLAYER_INITIAL_SPEED;
     _maxSpeed = PLAYER_INITIAL_SPEED;
     _moveSpeed = PLAYER_INITIAL_MOVE_SPEED;

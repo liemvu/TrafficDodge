@@ -80,8 +80,8 @@ void Vehicle::draw(Renderer *renderer, const kmMat4& transform, bool transformUp
 }
 void Vehicle::onDraw(const kmMat4 &transform, bool transformUpdated) {
     if(_mark) {
-        DrawPrimitives::setDrawColor4F(1.0, 1.0, 1.0, 1.0);
-        DrawPrimitives::setPointSize(4);
+        DrawPrimitives::setDrawColor4F(1.0, 0.0, 0.0, 1.0);
+        DrawPrimitives::setPointSize(8);
         DrawPrimitives::drawRect(Point(_position.x-_width/2, _position.y-_height), Point(_position.x+_width/2, _position.y));
     }
 }

@@ -23,6 +23,8 @@
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/ipad/font_levels.fnt \
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/ipad/font_levels.png \
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/ipad/gameover.png \
+/Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/ipad/heart.png \
+/Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/ipad/heart_big.png \
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/ipad/intro.png \
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/ipadhd/bg.png \
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/ipadhd/fire_particle.plist \
@@ -30,6 +32,8 @@
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/ipadhd/font_levels.fnt \
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/ipadhd/font_levels.png \
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/ipadhd/gameover.png \
+/Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/ipadhd/heart.png \
+/Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/ipadhd/heart_big.png \
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/ipadhd/intro.png \
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/iphone/bg.png \
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/iphone/fire_particle.plist \
@@ -37,5 +41,7 @@
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/iphone/font_levels.fnt \
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/iphone/font_levels.png \
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/iphone/gameover.png \
+/Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/iphone/heart.png \
+/Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/iphone/heart_big.png \
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/assets/iphone/intro.png \
 /Users/liemvo/Dropbox/Tmp/cocos2dx/VNTraffic/proj.android/bin/AndroidManifest.xml \
